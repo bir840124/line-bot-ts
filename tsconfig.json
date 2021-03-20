@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "lib": [
+      "dom",
+      "es6",
+      "es2015.promise"
+    ],
+    "target": "es5",
+    "experimentalDecorators": true,
+    "skipLibCheck": true,
+    "outDir": "temp/vscode-dist",
+    "forceConsistentCasingInFileNames": true,
+    "downlevelIteration": true,
+  },
+  "files": [
+    "src/app.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "library",
+    "local",
+    "temp",
+    "build",
+    "settings",
+    ".git",
+    ".vscode",
+    "build-templates",
+    "preview-templates",
+    "packages"
+  ]
+}
